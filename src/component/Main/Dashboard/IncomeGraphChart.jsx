@@ -78,7 +78,7 @@ const IncomeGraphChart = () => {
 
         {/* Pie Chart */}
         <div className='md:col-span-1'>
-          <h2 className='text-2xl font-semibold mb-2'>User Activity</h2>
+          <h2 className='text-2xl font-semibold mb-2'>User Ratio</h2>
           <div className=' border-2 p-2 rounded-lg border-[#7ed957] bg-white'>
             <Pie data={pieData} options={pieOptions} />
           </div>

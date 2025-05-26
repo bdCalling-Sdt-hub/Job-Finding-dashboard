@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiEye } from "react-icons/fi";
 import { Modal, Button } from "antd";
-import { LuPlus } from "react-icons/lu";
+import { LuPlus } from "react-icons/lu"; 
 import { Link } from "react-router-dom";
 
 const CareerTabsOne = () => {

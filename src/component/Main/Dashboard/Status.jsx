@@ -30,7 +30,7 @@ const Status = () => {
           </div>
           <div className='text-center'>
             <h3 className="text-3xl text-[#553283] font-semibold">120</h3>
-            <p className="text-sm text-[#553283] font-semibold mt-1">Total Job Postings</p>
+            <p className="text-sm text-[#553283] font-semibold mt-1">Total Companies </p>
           </div>
         </div>
 
@@ -41,7 +41,7 @@ const Status = () => {
           </div>
           <div className='text-center'>
             <h3 className="text-3xl text-[#553283] font-semibold">120</h3>
-            <p className="text-sm text-[#553283] font-semibold mt-1">Total Job Postings</p>
+            <p className="text-sm text-[#553283] font-semibold mt-1">Total Job Seekers</p>
           </div>
         </div>
 

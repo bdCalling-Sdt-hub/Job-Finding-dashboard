@@ -71,7 +71,7 @@ const Notification = () => {
             <div>
               <p className="font-semibold">{item.message}</p>
               <p className="text-gray-500">{moment(item.createdAt).fromNow()}</p>
-            </div> 
+            </div>
           </div>
         ))}
       </div>
