@@ -200,11 +200,6 @@ const router = createBrowserRouter([
         element: <HowItWorks />
       },
 
-
-
-
-
-
       {
         path: "/all-document",
         element: <AllDocument />,
