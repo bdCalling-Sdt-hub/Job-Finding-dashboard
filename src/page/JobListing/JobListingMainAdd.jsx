@@ -37,7 +37,7 @@ const JobListingMainAdd = () => {
         <div style={{ padding: '24px' }}>
             <ToastContainer theme='colored' />
             {/* Back Navigation */}
-            <Link to="/job-listing" className="flex items-center gap-2 text-2xl">
+            <Link to="/job-listing" className="flex  items-center gap-2 text-2xl">
                 <MdKeyboardArrowLeft className="text-3xl" />
                 <Link to="/job-listing">Job Setup</Link>
             </Link>

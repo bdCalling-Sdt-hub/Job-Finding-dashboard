@@ -150,12 +150,16 @@ const columns = [
 
 const JobListingMain = () => {
     return (
-        <div style={{ padding: '24px', backgroundColor: '#fff' }}>
+        <div className='relative ' style={{ padding: '24px', backgroundColor: '#fff' }}>
             <div className='flex items-center justify-between mb-10'>
                 <h2 className='text-3xl font-semibold'>All Job Listing</h2>
-                <Link to="/job-listing/add-job-listing" className='h-12 flex items-center cursor-pointer justify-center gap-2 w-48 bg-[#553283] text-white rounded'>
-                    <IoAdd className='text-2xl' /> Add New
-                </Link>
+                {/* data and search input fields  */}
+                <div className='flex items-center gap-2'>
+                    <input type="date" name="date" className='border border-gray-400 p-2 rounded-md' id="" />
+                    <input type="text" placeholder="Search" className="border border-gray-400 p-2 rounded-md" />
+                    <button className="bg-[#553283] text-white py-2 px-4 rounded-md ml-2">Search</button>
+
+                </div>
             </div>
             <Table
                 dataSource={data}
@@ -163,6 +167,7 @@ const JobListingMain = () => {
                 bordered
                 style={{ marginTop: 16 }}
                 // Adding header background color
+                className='pb-20'
                 columns={[...columns].map(col => ({
                     ...col,
                     onHeaderCell: () => ({
@@ -175,6 +180,9 @@ const JobListingMain = () => {
                 }))}
             />
 
+            <Link to="/job-listing/add-job-listing" className=' flex fixed bottom-5 right-5 items-center cursor-pointer justify-center gap-2 w-20 h-20  bg-[#553283] text-white rounded-full'>
+                <IoAdd className='text-4xl' />
+            </Link>
         </div>
     );
 };
