@@ -11,7 +11,7 @@ const Subscription = () => {
         {
             id: 1,
             name: "Weekly Plan",
-            price: "$5.50",
+            price: "€5.50",
             duration: "week",
             details: [
                 "Lorem ipsum dolor sit amet",
@@ -26,7 +26,7 @@ const Subscription = () => {
         {
             id: 2,
             name: "Monthly Plan",
-            price: "$20",
+            price: "€20",
             duration: "month",
             details: [
                 "Lorem ipsum dolor sit amet",
@@ -41,7 +41,7 @@ const Subscription = () => {
         {
             id: 3,
             name: "Yearly Plan",
-            price: "$200",
+            price: "€200",
             duration: "year",
             details: [
                 "Lorem ipsum dolor sit amet",
@@ -184,7 +184,7 @@ const Subscription = () => {
                     >
                         <div>
                             <div className="text-sm mb-1 opacity-100">
-                                <span className="font-semibold text-4xl">$123</span>{" "}
+                                <span className="font-semibold text-4xl">€123</span>{" "}
                                 <span className="text-xs">monthly</span>
                             </div>
                             <h2 className="text-3xl font-semibold mb-4">{subscription.name}</h2>

@@ -153,9 +153,9 @@ const JobListingMain = () => {
         <div style={{ padding: '24px', backgroundColor: '#fff' }}>
             <div className='flex items-center justify-between mb-10'>
                 <h2 className='text-3xl font-semibold'>All Job Listing</h2>
-                {/* <Link href="/company/addjob" className='h-12 flex items-center cursor-pointer justify-center gap-2 w-48 bg-[#553283] text-white rounded'>
+                <Link to="/job-listing/add-job-listing" className='h-12 flex items-center cursor-pointer justify-center gap-2 w-48 bg-[#553283] text-white rounded'>
                     <IoAdd className='text-2xl' /> Add New
-                </Link> */}
+                </Link>
             </div>
             <Table
                 dataSource={data}

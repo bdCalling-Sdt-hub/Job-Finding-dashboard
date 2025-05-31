@@ -60,6 +60,7 @@ import CareerResourcesMainNetworkEventEdit from "../page/CareerResourcesMain/Car
 import Subscribers from "../page/Subscribers/Subscribers";
 import WhyKarma from "../page/Settings/WhyKarma";
 import HowItWorks from "../page/Settings/HowItWorks";
+import JobListingMainAdd from "../page/JobListing/JobListingMainAdd";
 
 
 
@@ -102,6 +103,12 @@ const router = createBrowserRouter([
         path: "job-listing",
         element: <JobListingMain />,
       },
+
+      {
+        path: "job-listing/add-job-listing",
+        element: <JobListingMainAdd />,
+      },
+
       {
         path: "job-listing/:id",
         element: <JobListingPageDetails />,
